@@ -1,9 +1,17 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using SiemensApp;
 using SiemensApp.DataTemplate;
+using System.Text.Json;
 
-FolderEntry f = FolderExplorer.DirSearch("D:\\Photoshop\\Adobe Photoshop 2023 v24.5.0.500 (x64) Multilingual\\Autoplay");
+Entry f = FolderExplorer.DirSearch("C:\\Users\\hudak\\Desktop\\TestFolder");
 ConsoleInterface.WriteDirStructure(f);
+
+DataSerializer.OutputPath = "C:\\Users\\hudak\\Desktop";
+DataSerializer.Serialize(f);
+DataSerializer.FilePath = "C:\\Users\\hudak\\Desktop\\DirStruct.json";
+
+
+
 
 
 
