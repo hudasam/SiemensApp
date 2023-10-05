@@ -5,7 +5,7 @@ VisualStudioVersion = 17.7.34024.191
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SiemensApp", "SiemensApp\SiemensApp.csproj", "{F22C8755-0603-4B9E-B1FD-D0D5A0FF5A4C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SiemensAppTest", "SiemensAppTest\SiemensAppTest.csproj", "{F80FB378-409B-4B9F-A795-DA7DEB164192}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SiemensAppTest", "SiemensAppTest\SiemensAppTest.csproj", "{2113D678-C043-4AE0-8F36-C06AB6BBF9E7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{F22C8755-0603-4B9E-B1FD-D0D5A0FF5A4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F22C8755-0603-4B9E-B1FD-D0D5A0FF5A4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F22C8755-0603-4B9E-B1FD-D0D5A0FF5A4C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F80FB378-409B-4B9F-A795-DA7DEB164192}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F80FB378-409B-4B9F-A795-DA7DEB164192}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F80FB378-409B-4B9F-A795-DA7DEB164192}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F80FB378-409B-4B9F-A795-DA7DEB164192}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2113D678-C043-4AE0-8F36-C06AB6BBF9E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2113D678-C043-4AE0-8F36-C06AB6BBF9E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2113D678-C043-4AE0-8F36-C06AB6BBF9E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2113D678-C043-4AE0-8F36-C06AB6BBF9E7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,47 @@
+{
+  "Name": "TestFolder",
+  "IsDirectory": true,
+  "Entries": [
+    {
+      "Name": "DirStructure",
+      "Extension": ".json",
+      "IsDirectory": false
+    },
+    {
+      "Name": "testFile1",
+      "Extension": ".md",
+      "IsDirectory": false
+    },
+    {
+      "Name": "testFile2",
+      "Extension": ".txt",
+      "IsDirectory": false
+    },
+    {
+      "Name": "testFile3",
+      "Extension": ".html",
+      "IsDirectory": false
+    },
+    {
+      "Name": "TestFolder2",
+      "IsDirectory": true,
+      "Entries": [
+        {
+          "Name": "testFile1",
+          "Extension": ".txt",
+          "IsDirectory": false
+        },
+        {
+          "Name": "testFile4",
+          "Extension": ".txt",
+          "IsDirectory": false
+        },
+        {
+          "Name": "testFile5",
+          "Extension": ".bmp",
+          "IsDirectory": false
+        }
+      ]
+    }
+  ]
+}

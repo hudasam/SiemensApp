@@ -20,4 +20,8 @@
     <ProjectReference Include="..\SiemensApp\SiemensApp.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="TestFolder\TestFolder2\" />
+  </ItemGroup>
+
 </Project>

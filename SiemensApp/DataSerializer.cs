@@ -49,7 +49,7 @@ namespace SiemensApp
         /// Serialize the <see cref="Entry"/> object into JSON file at the <see cref="OutputPath">specified directory path</see>
         /// </summary>
         /// <param name="_folderEntry"></param>
-        public static void Serialize(Entry _folderEntry)
+        public static void Serialize(Entry? _folderEntry)
         {
             string serializedString = JsonSerializer.Serialize<Entry>(_folderEntry,options);
             WriteJSON(serializedString);

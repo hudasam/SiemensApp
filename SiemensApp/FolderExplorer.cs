@@ -7,15 +7,23 @@ using SiemensApp.DataTemplate;
 
 namespace SiemensApp
 {
-    internal class FolderExplorer
+    /// <summary>
+    /// Responsible for direcory search
+    /// </summary>
+    public class FolderExplorer
     {
 
         /// <summary>
         /// Method <c>DirSearch</c> looks through the target <paramref name="directory"/> and subdirectiories and returns an <see cref="Entry"/> object describing its structure.
         /// </summary>
         /// <param name="directory"> specifies the target directory</param>
-        public static Entry DirSearch(string directory)
+        public static Entry? DirSearch(string? directory)
         {
+            if (!Directory.Exists(directory))
+            { 
+                throw new DirectoryNotFoundException("The directory could not be found");
+            };
+    
             var dirName = Path.GetFileName(directory);
             Entry output = new Entry()
             {
